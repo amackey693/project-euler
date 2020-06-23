@@ -53,7 +53,26 @@ export function getFibSum(number) {
   const even = fibonacciNumbers.filter(n => (n % 2 === 0))
   const addEvens = even.reduce((c, n) => c + n, 0);
   return addEvens;
+}
+      }
+    }
+    return fibs;
+  }
 
+  const fibonacciNumbers = getFibs(number);
+  const even = fibonacciNumbers.filter(n => (n % 2 === 0))
+  const addEvens = even.reduce((c, n) => c + n, 0);
+  return addEvens;
+}
+      }
+    }
+    return fibs;
+  }
+
+  const fibonacciNumbers = getFibs(number);
+  const even = fibonacciNumbers.filter(n => (n % 2 === 0))
+  const addEvens = even.reduce((c, n) => c + n, 0);
+  return addEvens;
 }
 
 
